@@ -25,6 +25,7 @@
  *
  ***************************************************************************/
 
+#include <qlabel.h>
 #include <qtextcodec.h>
 #include <ktextbrowser.h>
 #include <kcombobox.h>
@@ -176,7 +177,11 @@ void MakeDlg::slotMake()
 		
 	// Add the command to the command history
 	m_pCommandHistory->addToHistory(sCommand);
-		
+	
+	// Start to caluate make time
+	timeMTime.start();
+	textLabelMTime->setText("caluating...");
+	
 	// Disbale the make button
 	m_pMakeButton->setEnabled(false);
 	m_pStopButton->setEnabled(true);
@@ -221,6 +226,9 @@ void MakeDlg::slotFinished(uint)
 		m_pOutputBrowser->append("<font color=\"#ff0000\"><b>Error</b></font>");
 	}
 	
+	// Show make time
+	textLabelMTime->setText(QTime(0, 0).addMSecs(timeMTime.elapsed()).toString("hh:mm:ss"));
+
 	// Re-enable the "Make" button
 	m_pMakeButton->setEnabled(true);
 	m_pStopButton->setEnabled(false);

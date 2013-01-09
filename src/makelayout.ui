@@ -129,6 +129,22 @@
                         </size>
                     </property>
                 </spacer>
+		<widget class="QLabel">
+		    <property name="name">
+			<cstring>textLabel3</cstring>
+		    </property>
+		    <property name="text">
+			<string>Make Time:</string>
+		    </property>
+		</widget>
+		<widget class="QLabel">
+		    <property name="name">
+			<cstring>textLabelMTime</cstring>
+		    </property>
+		    <property name="text">
+			<string>00:00:00</string>
+		    </property>
+		</widget>
                 <widget class="QPushButton">
                     <property name="name">
                         <cstring>m_pMakeButton</cstring>

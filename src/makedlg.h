@@ -73,6 +73,7 @@ protected slots:
 private:
 	/** Handles the make process. */
 	MakeFrontend* m_pMake;
+	QTime timeMTime;
 };
 
 #endif
