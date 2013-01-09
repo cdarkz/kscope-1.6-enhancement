@@ -1,0 +1,1642 @@
+# translation of kscope.po to Simplified Chinese
+# translation of kscope.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Roy Qu <quh@thunis.com>, 2007.
+# Roy Qu <royqh1979@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kscope\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-08-02 09:22-0400\n"
+"PO-Revision-Date: 2007-07-29 11:45+0800\n"
+"Last-Translator: Roy Qu <royqh1979@gmail.com>\n"
+"Language-Team: Simplified Chinese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr ""
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr ""
+
+#: calltreedlg.cpp:308 rc.cpp:73 rc.cpp:80
+#, no-c-format
+msgid "Call Graph"
+msgstr "调用图"
+
+#: calltreedlg.cpp:310
+msgid "Right-click a function node or an arrow head for more options."
+msgstr "右击函数节点或箭头以获取更多选项。"
+
+#: calltreedlg.cpp:316 rc.cpp:86
+#, no-c-format
+msgid "Called Functions Tree"
+msgstr "函数调用情况树"
+
+#: calltreedlg.cpp:318 calltreedlg.cpp:327
+msgid "Right-click a tree item for more options."
+msgstr "右击树中的节点以获取更多选项。"
+
+#: calltreedlg.cpp:325 rc.cpp:92
+#, no-c-format
+msgid "Calling Functions Tree"
+msgstr "被其它函数调用情况树"
+
+#: cscopefrontend.cpp:416
+msgid "Processing query results, please wait..."
+msgstr "正在处理查询请求，请等待..."
+
+#: ctagsfrontend.cpp:104
+msgid "Ctags cannot be found in the given path"
+msgstr "在所给的路径中找不到ctags"
+
+#: ctagslist.cpp:147 rc.cpp:221
+#, no-c-format
+msgid "Name"
+msgstr "名称"
+
+#: ctagslist.cpp:148 queryview.cpp:53 rc.cpp:580
+#, no-c-format
+msgid "Line"
+msgstr "行号"
+
+#: ctagslist.cpp:149 rc.cpp:613
+#, no-c-format
+msgid "Type"
+msgstr "类型"
+
+#: ctagslist.cpp:189 queryview.cpp:51 rc.cpp:574
+#, no-c-format
+msgid "Function"
+msgstr "函数"
+
+#: ctagslist.cpp:194
+msgid "Variable"
+msgstr "Variable"
+
+#: ctagslist.cpp:199
+msgid "Struct"
+msgstr "Struct"
+
+#: ctagslist.cpp:204
+msgid "Macro"
+msgstr "Macro"
+
+#: ctagslist.cpp:209
+msgid "Member"
+msgstr "Member"
+
+#: ctagslist.cpp:214
+msgid "Enum"
+msgstr "Enum"
+
+#: ctagslist.cpp:219
+msgid "Enumerator"
+msgstr "Enumerator"
+
+#: ctagslist.cpp:224
+msgid "Typedef"
+msgstr "Typedef"
+
+#: ctagslist.cpp:229
+msgid "Label"
+msgstr "Label"
+
+#: ctagslist.cpp:234
+msgid "Include"
+msgstr "Include"
+
+#: dotfrontend.cpp:99
+msgid "Dot cannot be found in the given path"
+msgstr "在给定的路径中找不到"
+
+#: editortabs.cpp:190
+msgid ""
+"Some files contain unsaved changes.\n"
+"Would you like to save these files?"
+msgstr ""
+"某些文件中含有未保存的修改。\n"
+"您是否想保存这些文件？"
+
+#: editortabs.cpp:295
+msgid "Untitled "
+msgstr "无标题"
+
+#: editortabs.cpp:299
+msgid "New unsaved file"
+msgstr "新未保存的文件"
+
+#: filelist.cpp:47 rc.cpp:215
+#, no-c-format
+msgid "Path"
+msgstr "路径"
+
+#: frontend.cpp:84
+msgid "Cannot restart while another process is still running"
+msgstr "正在运行其它处理，无法重启"
+
+#: frontend.cpp:104
+msgid ": Failed to start process"
+msgstr ":启动处理失败"
+
+#: frontend.cpp:108
+msgid "No error"
+msgstr "无错误"
+
+#: graphwidget.cpp:161
+msgid "<b>Called Functions</b>"
+msgstr "<b>调用的函数</b>"
+
+#: graphwidget.cpp:163 graphwidget.cpp:172
+msgid "Show"
+msgstr "显示"
+
+#: graphwidget.cpp:165 graphwidget.cpp:174
+msgid "List/Filter..."
+msgstr "列表/过滤..."
+
+#: graphwidget.cpp:167 graphwidget.cpp:176 rc.cpp:135
+#, no-c-format
+msgid "Hide"
+msgstr "隐藏"
+
+#: graphwidget.cpp:170
+msgid "<b>Calling Functions</b>"
+msgstr "<b>调用它的函数</b>"
+
+#: graphwidget.cpp:179
+msgid "<b>This Function</b>"
+msgstr "<b>此函数</b>"
+
+#: graphwidget.cpp:181
+msgid "Find Definition"
+msgstr "查找定义"
+
+#: graphwidget.cpp:187
+msgid "List..."
+msgstr "列表..."
+
+#: graphwidget.cpp:195
+msgid "Open Call"
+msgstr ""
+
+#: graphwidget.cpp:341 kscope.cpp:559 main.cpp:58
+msgid "KScope"
+msgstr "KScope"
+
+#: graphwidget.cpp:342
+msgid "Generating graph, please wait"
+msgstr "正在生成图形，请等待"
+
+#: graphwidget.cpp:889
+msgid ""
+"The query produced too many results.\n"
+"A multiple-call node will appear in the graph instead.\n"
+"Hint: The maximum number of in/out edges\n"
+"can be adjusted by clicking the dialogue's \"Preferences\" button"
+msgstr ""
+"这次查询获得的结果太多。\n"
+"将在图形中使用多重调用节点来替代。\n"
+"提示：可以通过点击对话框的\"偏好设置\"按扭来调整出/入边的最大数量。"
+
+#: historypage.cpp:111
+msgid "HIS "
+msgstr "历史"
+
+#: historypage.cpp:111
+msgid "History "
+msgstr "历史"
+
+#: kscope.cpp:206
+msgid " Line: N/A Col: N/A "
+msgstr "行: N/A 列: N/A "
+
+#: kscope.cpp:287
+msgid ""
+"The current project needs to be closed before a new one is created.\n"
+"Would you like to close it now?"
+msgstr ""
+"为了创建新工程，必须关闭当前工程。\n"
+"您要关闭当前工程吗？"
+
+#: kscope.cpp:348
+msgid "The Add/Remove Files dialogue is not available for temporary projects."
+msgstr "在临时工程中不能使用添加/删除文件对话框。"
+
+#: kscope.cpp:381
+msgid ""
+"The Project Properties dialogue is not available for temporary projects."
+msgstr "在临时工程中不能使用工程属性对话框。"
+
+#: kscope.cpp:559
+msgid "Please wait while KScope builds the database"
+msgstr "KScope正在建立数据库，请等待"
+
+#: kscope.cpp:934
+msgid "Verifying Cscope installation..."
+msgstr "正在验证Cscope安装..."
+
+#: kscope.cpp:1122
+msgid "Verifying Cscope installation...Done"
+msgstr "正在验证Cscope安装...完成"
+
+#: kscope.cpp:1130
+msgid ""
+"Cscope may not be properly installed on this system.\n"
+"Please check the Cscope path specified in KScope's configuration dialogue."
+msgstr ""
+"此系统上似乎没有安装Cscope。\n"
+"请在KScope配置对话框中检查Cscope路径。"
+
+#: kscope.cpp:1553
+msgid "Rebuilding the cross reference database..."
+msgstr "正在重建交叉引用数据库..."
+
+#: kscope.cpp:1566
+msgid "Please wait while KScope builds the inverted index"
+msgstr "KScope正在建立反向索引，请等待"
+
+#: kscope.cpp:1572
+msgid "Rebuilding inverted index..."
+msgstr "正在重建反向索引..."
+
+#: kscope.cpp:1590
+msgid "Rebuilding the cross reference database...Done!"
+msgstr "正在重建反向索引...完成！"
+
+#: kscope.cpp:1607
+msgid ""
+"The database could not be built.\n"
+"Cross-reference information will not be available for this project.\n"
+"Please ensure that the Cscope parameters were correctly entered in the "
+"\"Settings\" dialogue."
+msgstr ""
+"无法建立数据库。\n"
+"在此工程中将无法使用交叉引用信息。\n"
+"请检查\"设置\"对话框中的Cscope参数设置是否正确。"
+
+#: kscope.cpp:1616
+msgid "Rebuilding the cross reference database...Failed"
+msgstr "正在重建交叉引用数据库...失败"
+
+#: kscope.cpp:1687
+msgid "Whould you like to add this file to the active project?"
+msgstr "您想要把此文件加入当前工程吗？"
+
+#: kscope.cpp:1692
+msgid "Failed to write the file list."
+msgstr "写文件列表失败。"
+
+#: kscopeactions.cpp:58
+msgid "Go to File List"
+msgstr "转到文件列表"
+
+#: kscopeactions.cpp:66
+msgid "Save Al&l"
+msgstr "全部保存(&L)"
+
+#: kscopeactions.cpp:75
+msgid "Edit in E&xternal Editor"
+msgstr "在外部编辑器中编辑(&X)"
+
+#: kscopeactions.cpp:83
+msgid "Go To Tag"
+msgstr "转到标签"
+
+#: kscopeactions.cpp:91
+msgid "Complete Symbol"
+msgstr "完整符号"
+
+#: kscopeactions.cpp:100
+msgid "&New Project..."
+msgstr "新建工程(&N)..."
+
+#: kscopeactions.cpp:108
+msgid "&Open Project..."
+msgstr "打开工程(&O)..."
+
+#: kscopeactions.cpp:116
+msgid "Open &Cscope.out..."
+msgstr "打开Cscope.out(&C)..."
+
+#: kscopeactions.cpp:124
+msgid "Add/Remove &Files..."
+msgstr "添加/删除文件(&F)..."
+
+#: kscopeactions.cpp:140
+msgid "&Make Project"
+msgstr "Make工程(&M)"
+
+#: kscopeactions.cpp:148
+msgid "&Remake Project"
+msgstr "重新Make工程(&R)"
+
+#: kscopeactions.cpp:156
+msgid "&Close Project"
+msgstr "关闭工程(&C)"
+
+#: kscopeactions.cpp:165
+msgid "&References..."
+msgstr "引用(&R)..."
+
+#: kscopeactions.cpp:173
+msgid "&Definition..."
+msgstr "定义(&D)..."
+
+#: kscopeactions.cpp:181
+msgid "&Called Functions..."
+msgstr "调用的函数(&C)..."
+
+#: kscopeactions.cpp:189
+msgid "C&alling Functions..."
+msgstr "调用它的函数(&A)..."
+
+#: kscopeactions.cpp:197
+msgid "Find &Text..."
+msgstr "查找文字(&T)..."
+
+#: kscopeactions.cpp:205
+msgid "Find &EGrep Pattern..."
+msgstr "查找EGrep模式(&E)..."
+
+#: kscopeactions.cpp:213
+msgid "Find &File..."
+msgstr "查找文件(&F)..."
+
+#: kscopeactions.cpp:221
+msgid "&Including Files..."
+msgstr "包含的文件(&I)..."
+
+#: kscopeactions.cpp:229
+msgid "&Quick Definition"
+msgstr "快速查找定义(&Q)"
+
+#: kscopeactions.cpp:237
+msgid "Call &Graph..."
+msgstr "调用图(&G)..."
+
+#: kscopeactions.cpp:245
+msgid "Re&build database"
+msgstr "重建数据库(&B)"
+
+#: kscopeactions.cpp:254
+msgid "P&revious Result"
+msgstr "前一个结果(&R)"
+
+#: kscopeactions.cpp:262
+msgid "N&ext Result"
+msgstr "下一个结果(&E)"
+
+#: kscopeactions.cpp:270
+msgid "&Previous Position"
+msgstr "前一次定位(&P)"
+
+#: kscopeactions.cpp:278
+msgid "&Next Position"
+msgstr "后一次定位(&N)"
+
+#: kscopeactions.cpp:286
+msgid "Position &History"
+msgstr "定位历史"
+
+#: kscopeactions.cpp:294
+msgid "Global &Bookmarks"
+msgstr "全局书签(&B)"
+
+#: kscopeactions.cpp:303
+msgid "Toggle File List"
+msgstr "切换文件列表"
+
+#: kscopeactions.cpp:311
+msgid "Toggle Query Window"
+msgstr "切换查询窗口"
+
+#: kscopeactions.cpp:319
+msgid "Toggle Tag List"
+msgstr "切换标签列表"
+
+#: kscopeactions.cpp:328
+msgid "Close &All"
+msgstr "全部关闭(&A)"
+
+#: kscopeactions.cpp:336
+msgid "Go &Left"
+msgstr "转到左边(&L)"
+
+#: kscopeactions.cpp:344
+msgid "Go &Right"
+msgstr "转到右边(&R)"
+
+#: kscopeactions.cpp:357
+msgid "Show &Welcome Message..."
+msgstr "显示欢迎信息(&W)..."
+
+#: kscopeactions.cpp:366
+msgid "&New"
+msgstr "新建(&N)"
+
+#: kscopeactions.cpp:374
+msgid "&Refresh"
+msgstr "刷新(&R)"
+
+#: kscopeactions.cpp:382
+msgid "&Lock/Unlock"
+msgstr "锁定/解锁(&L)"
+
+#: main.cpp:36
+msgid ""
+"KScope\n"
+"A source-editing environment for KDE, based on Cscope"
+msgstr ""
+
+#: main.cpp:42
+msgid "Opens a cscope.out file in a temporary project"
+msgstr ""
+
+#: main.cpp:44
+#, fuzzy
+msgid "Opens a KScope project"
+msgstr "打开工程"
+
+#: makedlg.cpp:134
+msgid "A make process is running. Would you like to stop it first?"
+msgstr "一个make进程正在运行。您要先停止它吗？"
+
+#: makedlg.cpp:135
+msgid "Close Make Window"
+msgstr "关闭Make窗口"
+
+#: newprojectdlg.cpp:77
+msgid "Project Properties"
+msgstr "工程属性"
+
+#: newprojectdlg.cpp:200
+msgid "Project names must not contain whitespace."
+msgstr "工程名中不能有空格。"
+
+#: newprojectdlg.cpp:239
+msgid "This is not a valid file type!"
+msgstr "非法的文件类型！"
+
+#: preferencesdlg.cpp:56 rc.cpp:123
+#, no-c-format
+msgid "Preferences"
+msgstr "偏好设置"
+
+#: preferencesdlg.cpp:63
+msgid "Programmes"
+msgstr "程序"
+
+#: preferencesdlg.cpp:64
+msgid "Paths to back-end programmes"
+msgstr "后台程序路径"
+
+#: preferencesdlg.cpp:71 rc.cpp:156
+#, no-c-format
+msgid "Colours"
+msgstr "配色"
+
+#: preferencesdlg.cpp:71
+msgid "Window colours"
+msgstr "窗口颜色"
+
+#: preferencesdlg.cpp:78
+msgid "Window fonts"
+msgstr "窗口字体"
+
+#: preferencesdlg.cpp:85
+msgid "Misc. Options"
+msgstr "杂项"
+
+#: preferencesdlg.cpp:187
+msgid "This would reset all your configuration settings! Continue?"
+msgstr "这将会重设您的全部配置设定。要继续吗？"
+
+#: preffont.cpp:77 preffont.cpp:87
+msgid "Sample"
+msgstr "例子"
+
+#: preffrontend.cpp:137
+msgid "Looking for Cscope..."
+msgstr "正在查找Cscope..."
+
+#: preffrontend.cpp:141
+msgid "Checking Cscope version..."
+msgstr "正在检查Cscope版本..."
+
+#: preffrontend.cpp:145
+msgid "Cscope support for line mode verbose output..."
+msgstr "Cscope对行模式详细输出的支持..."
+
+#: preffrontend.cpp:150
+msgid "Cscope support slow path definitions... "
+msgstr "Cscope对慢路径定义的支持..."
+
+#: preffrontend.cpp:154
+msgid "Looking for Ctags..."
+msgstr "正在查找Ctags..."
+
+#: preffrontend.cpp:158
+msgid "Ctags compatibilty with ctags-exuberant..."
+msgstr "Ctags对ctags-exuberant的兼容性..."
+
+#: preffrontend.cpp:163
+msgid "Looking for Dot..."
+msgstr "正在查找Dot..."
+
+#: preffrontend.cpp:167
+msgid "Checking -Tplain..."
+msgstr "正在检查-Tplian参数..."
+
+#: project.cpp:98
+msgid "Project directory does not exist"
+msgstr "工程目录不存在"
+
+#: project.cpp:111
+msgid ""
+"Your project is not compatible with this version of KScope.\n"
+"Please re-create the project."
+msgstr "此版本的KScope不兼容您的工程。请重新创建此工程。"
+
+#: project.cpp:120
+msgid "Cannot read project name"
+msgstr "无法读工程名。"
+
+#: projectfilesdlg.cpp:204
+#, c-format
+msgid "Would you like to add %d files to your project?"
+msgstr "您想要将%d个文件添加到您的工程中吗？"
+
+#: projectfilesdlg.cpp:299
+msgid "Are you sure you want to remove the selected files from the project?"
+msgstr "您确定要从工程中删除选中的文件吗？"
+
+#: projectfilesdlg.cpp:329
+msgid ""
+"Are you sure you want to remove the selected directory from the project?"
+msgstr "您确定要从工程中删除选中的目录吗？"
+
+#: projectfilesdlg.cpp:362
+msgid ""
+"Are you sure you want to remove all files in the selected tree from the "
+"project?"
+msgstr "您确定要从工程中删除选中树里的全部文件吗？"
+
+#: projectmanager.cpp:67
+msgid "Cannot create a project inside an existing directory"
+msgstr "无法在已存在的目录中创建工程"
+
+#: projectmanager.cpp:74
+msgid "Failed to create the project's directory"
+msgstr "创建工程目录失败"
+
+#: projectmanager.cpp:151
+msgid "No Project"
+msgstr "无工程"
+
+#: queryresultsmenu.cpp:41
+msgid "&View Source"
+msgstr "查看源文件(&V)"
+
+#: queryresultsmenu.cpp:43
+msgid "Find &Definition"
+msgstr "查找定义(&D)"
+
+#: queryresultsmenu.cpp:48
+msgid "&Filter..."
+msgstr "过滤(&F)..."
+
+#: queryresultsmenu.cpp:49
+msgid "&Show All"
+msgstr "显示全部(&S)..."
+
+#: queryresultsmenu.cpp:51
+msgid "&Remove Item"
+msgstr "删除项(R)..."
+
+#: queryview.cpp:54 rc.cpp:583
+#, no-c-format
+msgid "Text"
+msgstr "文字"
+
+#: queryview.cpp:213
+msgid "No results"
+msgstr "无结果"
+
+#: querywidget.cpp:446
+msgid ""
+"You about about to close a locked page.\n"
+"Are you sure?"
+msgstr ""
+"您将要关闭一个已锁定的页。\n"
+"确定要这么做吗？"
+
+#: rc.cpp:12
+#, no-c-format
+msgid "&Project"
+msgstr "工程(&P)"
+
+#: rc.cpp:15
+#, no-c-format
+msgid "&Cscope"
+msgstr "&Cscope"
+
+#: rc.cpp:18
+#, no-c-format
+msgid "&Go"
+msgstr "跳转(&G)"
+
+#: rc.cpp:21
+#, no-c-format
+msgid "&Window"
+msgstr "窗口(&W)"
+
+#: rc.cpp:30
+#, no-c-format
+msgid "&Query"
+msgstr "查询(&Q)"
+
+#: rc.cpp:33
+#, no-c-format
+msgid "Cscope"
+msgstr "Cscope"
+
+#: rc.cpp:36
+#, no-c-format
+msgid "Project"
+msgstr "工程"
+
+#: rc.cpp:39
+#, no-c-format
+msgid "Navigation"
+msgstr "导航"
+
+#: rc.cpp:42
+#, no-c-format
+msgid "Query"
+msgstr "查询"
+
+#: rc.cpp:45
+#, no-c-format
+msgid "Workspace"
+msgstr "工作空间"
+
+#: rc.cpp:48
+#, no-c-format
+msgid "Auto-Completion Properties"
+msgstr "自动补全属性"
+
+#: rc.cpp:51
+#, no-c-format
+msgid "Minimum Characters"
+msgstr "最短字符数"
+
+#: rc.cpp:54
+#, no-c-format
+msgid "Delay (ms)"
+msgstr "延迟(毫秒)"
+
+#: rc.cpp:57
+#, no-c-format
+msgid "Maximum Entries"
+msgstr "最大条目数"
+
+#: rc.cpp:66
+#, no-c-format
+msgid "Global Bookmarks"
+msgstr "全局书签"
+
+#: rc.cpp:77 rc.cpp:83 rc.cpp:89 rc.cpp:159 rc.cpp:165
+#, no-c-format
+msgid "..."
+msgstr "..."
+
+#: rc.cpp:96 rc.cpp:102 rc.cpp:108 rc.cpp:114 rc.cpp:120
+#, no-c-format
+msgid "a"
+msgstr "a"
+
+#: rc.cpp:105
+#, no-c-format
+msgid "Zoom In"
+msgstr "放大"
+
+#: rc.cpp:111
+#, no-c-format
+msgid "Zoom Out"
+msgstr "缩小"
+
+#: rc.cpp:117
+#, no-c-format
+msgid "Rotate"
+msgstr "旋转"
+
+#: rc.cpp:126
+#, no-c-format
+msgid "Help Message"
+msgstr "帮助信息"
+
+#: rc.cpp:129
+#, no-c-format
+msgid "Cscope Error Messages"
+msgstr "Cscope错误信息"
+
+#: rc.cpp:138
+#, no-c-format
+msgid "Form1"
+msgstr "Form1"
+
+#: rc.cpp:143
+#, no-c-format
+msgid "Project File List"
+msgstr "工程文件列表"
+
+#: rc.cpp:147
+#, no-c-format
+msgid "File Tree"
+msgstr "文件树"
+
+#: rc.cpp:150
+#, no-c-format
+msgid "Call Graph Preferences"
+msgstr "调用图偏好设置"
+
+#: rc.cpp:153
+#, no-c-format
+msgid "Maximal In/Out Node Degree"
+msgstr "最大出/入节点数"
+
+#: rc.cpp:176
+#, no-c-format
+msgid "KScope - Make"
+msgstr "KScope - Make"
+
+#: rc.cpp:179
+#, no-c-format
+msgid "Root Directory:"
+msgstr "根目录:"
+
+#: rc.cpp:182
+#, no-c-format
+msgid "Command:"
+msgstr "命令:"
+
+#: rc.cpp:185
+#, no-c-format
+msgid "Output"
+msgstr "输出"
+
+#: rc.cpp:188
+#, no-c-format
+msgid "Errors a&nd Warnings"
+msgstr "错误与警告(&N)"
+
+#: rc.cpp:191
+#, no-c-format
+msgid "&Make"
+msgstr "&Make"
+
+#: rc.cpp:194
+#, no-c-format
+msgid "Alt+M"
+msgstr "Alt+M"
+
+#: rc.cpp:197
+#, no-c-format
+msgid "&Stop"
+msgstr "停止(&S)"
+
+#: rc.cpp:200
+#, no-c-format
+msgid "Alt+S"
+msgstr "Alt+S"
+
+#: rc.cpp:206
+#, no-c-format
+msgid "Alt+C"
+msgstr "Alt+C"
+
+#: rc.cpp:209
+#, no-c-format
+msgid "Create Project"
+msgstr "新建工程"
+
+#: rc.cpp:212
+#, no-c-format
+msgid "Detai&ls"
+msgstr "详细信息(&L)"
+
+#: rc.cpp:218
+#, no-c-format
+msgid "Source Root (Optional)"
+msgstr "源文件根目录(可选)"
+
+#: rc.cpp:224
+#, no-c-format
+msgid ""
+"Enter a name for this project.\n"
+"The name must conform to the file system's naming conventions for "
+"directories (e.g., no spaces, exclamaion marks, etc.)."
+msgstr ""
+"输入此工程的名称。\n"
+"此名称的格式必须遵循文件系统对目录名的格式要求(例如:不包含空格、特殊符号等)。"
+
+#: rc.cpp:228
+#, no-c-format
+msgid ""
+"The path to hold this project.\n"
+"KScope will create a directory with the given name under this project, and "
+"populate it with the project configuration and database files.\n"
+"This does not need to be the path in which the source files reside."
+msgstr ""
+"存放此工程的路径。\n"
+"KScope将在此工程下创建一个以工程名称命名的目录，并将工程配置和数据库 文件保存"
+"在里面。\n"
+"此路径不需要和项目源文件所在的目录路径相同。"
+
+#: rc.cpp:233
+#, no-c-format
+msgid ""
+"<blockquote>A project consists of several files located in a directory\n"
+" with the given name and path. The project's name needs to be a valid "
+"directory\n"
+"name and must not contain any whitespace.</blockquote>\n"
+"<br>\n"
+"<blockquote>The Source Root is a convinient way to specify a common\n"
+"path for all source files, but is not required.</blockquote>"
+msgstr ""
+"<blockquote>在一个工程中包含保存在给定的名称和路径下的多个文件。 因此，工程名"
+"称和路径必须是合法的目录名，其中不能含有空格。</blockquote>\n"
+"<br>\n"
+"<blockquote>源文件根目录可以被用来为所有源文件指定一个公共路径，不过它并不是"
+"必须的。</blockquote>"
+
+#: rc.cpp:241
+#, no-c-format
+msgid "File T&ypes"
+msgstr "文件类型(&Y)"
+
+#: rc.cpp:244
+#, no-c-format
+msgid "This Project"
+msgstr "此工程"
+
+#: rc.cpp:247
+#, no-c-format
+msgid ""
+"KScope uses these filters to locate source files to include in this project."
+msgstr "KScope使用这些过滤器来定位包含在此工程中的源文件。"
+
+#: rc.cpp:250
+#, no-c-format
+msgid "<< &Add"
+msgstr "<< 添加(&A)"
+
+#: rc.cpp:253 rc.cpp:649
+#, no-c-format
+msgid "Alt+A"
+msgstr "Alt+A"
+
+#: rc.cpp:256
+#, no-c-format
+msgid "Adds the selected file type to the current project."
+msgstr "将选中类型的文件添加到当前项目中。"
+
+#: rc.cpp:259
+#, no-c-format
+msgid ">> &Remove"
+msgstr ">> 删除(&R)"
+
+#: rc.cpp:262
+#, no-c-format
+msgid "Alt+R"
+msgstr "Alt+R"
+
+#: rc.cpp:265
+#, no-c-format
+msgid "Remove the selected file type from the project."
+msgstr "从工程中删除选中类型的文件。"
+
+#: rc.cpp:268
+#, no-c-format
+msgid "Available Types"
+msgstr "可用类型"
+
+#: rc.cpp:271
+#, no-c-format
+msgid "You can enter custom file types here."
+msgstr "您可以在这里输入自定义文件类型。"
+
+#: rc.cpp:274
+#, no-c-format
+msgid "*.c"
+msgstr "*.c"
+
+#: rc.cpp:277
+#, no-c-format
+msgid "*.h"
+msgstr "*.h"
+
+#: rc.cpp:280
+#, no-c-format
+msgid "*.l"
+msgstr "*.l"
+
+#: rc.cpp:283
+#, no-c-format
+msgid "*.y"
+msgstr "*.y"
+
+#: rc.cpp:286
+#, no-c-format
+msgid "*.S"
+msgstr "*.S"
+
+#: rc.cpp:289
+#, no-c-format
+msgid "*.cc"
+msgstr "*.cc"
+
+#: rc.cpp:292
+#, no-c-format
+msgid "*.cpp"
+msgstr "*.cpp"
+
+#: rc.cpp:295
+#, no-c-format
+msgid "*.cxx"
+msgstr "*.cxx"
+
+#: rc.cpp:298
+#, no-c-format
+msgid "*.C"
+msgstr "*.C"
+
+#: rc.cpp:301
+#, no-c-format
+msgid "*.hh"
+msgstr "*.hh"
+
+#: rc.cpp:304
+#, no-c-format
+msgid "*.hpp"
+msgstr "*.hpp"
+
+#: rc.cpp:307
+#, no-c-format
+msgid "*.hxx"
+msgstr "*.hxx"
+
+#: rc.cpp:310
+#, no-c-format
+msgid "*.H"
+msgstr "*.H"
+
+#: rc.cpp:313
+#, no-c-format
+msgid "A list of standard file types."
+msgstr "标准文件类型列表"
+
+#: rc.cpp:319
+#, no-c-format
+msgid "Kernel project (-k)"
+msgstr "内核工程(-k)"
+
+#: rc.cpp:323
+#, no-c-format
+msgid ""
+"For kernel projects, symbols are not looked up in the standard include path."
+msgstr "对于内核工程，不在标准的包含路径中寻找符号声明。"
+
+#: rc.cpp:326
+#, no-c-format
+msgid "Build inverted inde&x (-q)"
+msgstr "建立反向索引(-q)(&X)"
+
+#: rc.cpp:329
+#, no-c-format
+msgid "Alt+X"
+msgstr "Alt+X"
+
+#: rc.cpp:332
+#, no-c-format
+msgid ""
+"An inverted index may greatly speed up searches in a large project. The "
+"project's building process is longer, though."
+msgstr ""
+"在大工程中使用反向索引可以大大提高检索速度。不过，这也会增加创建过程所需要的"
+"时间。"
+
+#: rc.cpp:335
+#, no-c-format
+msgid "Do not compress the database (-c)"
+msgstr "不压缩数据库(-c)"
+
+#: rc.cpp:339
+#, no-c-format
+msgid "Slower, but more accurate, function definition detection (-D)"
+msgstr "更慢，但是更准确，检测函数定义(-D)"
+
+#: rc.cpp:342
+#, no-c-format
+msgid "Refresh data&base automatically"
+msgstr "自动更新数据库(&B)"
+
+#: rc.cpp:345
+#, no-c-format
+msgid "Alt+B"
+msgstr "Alt+B"
+
+#: rc.cpp:348
+#, no-c-format
+msgid "Rebuild the database after changed files are saved to disk."
+msgstr "当被修改的文件保存到磁盘上之后，重建数据库。"
+
+#: rc.cpp:351
+#, no-c-format
+msgid "(Seconds)"
+msgstr "(秒)"
+
+#: rc.cpp:354
+#, no-c-format
+msgid ""
+"Wait this number of seconds after the last save before rebuilding the "
+"database."
+msgstr "在最后一次保存后，等待这些秒数再开始重建数据库。"
+
+#: rc.cpp:357
+#, no-c-format
+msgid "&Use symbol auto-completion"
+msgstr "使用符号自动补全(&U)"
+
+#: rc.cpp:360
+#, no-c-format
+msgid "Alt+U"
+msgstr "Alt+U"
+
+#: rc.cpp:363
+#, no-c-format
+msgid "As-you-type symbol completion."
+msgstr "输入符号时自动补全。"
+
+#: rc.cpp:366
+#, no-c-format
+msgid "Options..."
+msgstr "选项..."
+
+#: rc.cpp:369
+#, no-c-format
+msgid "Override default tab width (Kate only)"
+msgstr "覆盖缺省标签页宽度(只用于Kate)"
+
+#: rc.cpp:372
+#, no-c-format
+msgid "Overrides the editor's configured tab width"
+msgstr "覆盖编辑器中配置的标签页宽度"
+
+#: rc.cpp:375
+#, no-c-format
+msgid "Cre&ate"
+msgstr "新建(&A)"
+
+#: rc.cpp:378
+#, no-c-format
+msgid "Ca&ncel"
+msgstr "取消(&N)"
+
+#: rc.cpp:381
+#, no-c-format
+msgid "Open Project"
+msgstr "打开工程"
+
+#: rc.cpp:384
+#, no-c-format
+msgid "Project Path"
+msgstr "工程路径"
+
+#: rc.cpp:387
+#, no-c-format
+msgid "Recent Projects"
+msgstr "最近的工程"
+
+#: rc.cpp:393
+#, no-c-format
+msgid "&Open"
+msgstr "打开(&O)"
+
+#: rc.cpp:396
+#, no-c-format
+msgid "Alt+O"
+msgstr "Alt+O"
+
+#: rc.cpp:399
+#, no-c-format
+msgid "C&ancel"
+msgstr "取消(&A)"
+
+#: rc.cpp:402 rc.cpp:411 rc.cpp:435
+#, no-c-format
+msgid "Form4"
+msgstr "Form4"
+
+#: rc.cpp:405 rc.cpp:414
+#, no-c-format
+msgid "GUI Element"
+msgstr "图形界面元素"
+
+#: rc.cpp:408
+#, no-c-format
+msgid "Colour"
+msgstr "颜色"
+
+#: rc.cpp:420
+#, no-c-format
+msgid "Form3"
+msgstr "Form3"
+
+#: rc.cpp:423
+#, no-c-format
+msgid "Cscope path:"
+msgstr "Cscope路径:"
+
+#: rc.cpp:426
+#, no-c-format
+msgid "Ctags path:"
+msgstr "Ctags路径:"
+
+#: rc.cpp:429
+#, no-c-format
+msgid "Dot path:"
+msgstr "Dot路径:"
+
+#: rc.cpp:432
+#, no-c-format
+msgid "G&uess"
+msgstr "猜测(&U)"
+
+#: rc.cpp:438
+#, no-c-format
+msgid ""
+"Determines whether KScope should automatically load the last project when "
+"started."
+msgstr "决定当KScope启动时，是否自动载入上次的工程。"
+
+#: rc.cpp:441
+#, no-c-format
+msgid "External Editor"
+msgstr "外部编辑器"
+
+#: rc.cpp:444
+#, no-c-format
+msgid "Read-Onl&y Mode"
+msgstr "只读模式(&Y)"
+
+#: rc.cpp:447
+#, no-c-format
+msgid "Alt+Y"
+msgstr "Alt+Y"
+
+#: rc.cpp:450
+#, no-c-format
+msgid ""
+"Forces all editor windows to work in a read-only mode, so that the user "
+"cannot modify the displayed files."
+msgstr "强制全部编辑窗口在只读模式下工作，以确保读者无法修改显示的文件。"
+
+#: rc.cpp:453
+#, no-c-format
+msgid "Open Last Project on Start-Up"
+msgstr "启动时打开上次的工程"
+
+#: rc.cpp:456
+#, no-c-format
+msgid "Automatic Tag Highlighting"
+msgstr "自动高亮标签"
+
+#: rc.cpp:459
+#, no-c-format
+msgid ""
+"Determines whether the tag list should highlight the relevant tag based on "
+"the cursor's position."
+msgstr "决定在标签列表中是否高亮显示与当前光标位置对应的标签"
+
+#: rc.cpp:462
+#, no-c-format
+msgid "Brief Tab Captions for &Query Pages"
+msgstr "在查询页面中简写标签页标题"
+
+#: rc.cpp:465
+#, no-c-format
+msgid ""
+"If set, the tab captions for query pages will be shortened, by using aliases "
+"for the query types."
+msgstr "如果设置了此选项，在查询页中将会使用查询类型的别名来简写标签页标题。"
+
+#: rc.cpp:468
+#, no-c-format
+msgid "Warn When a File is Modified Outside KScope"
+msgstr "当文件在KScope外面被修改时发出警告"
+
+#: rc.cpp:471
+#, no-c-format
+msgid ""
+"If set, the user is prompted whenever the currently edited file is changed "
+"by an external programme."
+msgstr "如果设置了此选项，当有外部程序改动了当前正在编辑的文件时，会提示用户。"
+
+#: rc.cpp:474
+#, no-c-format
+msgid "Automatically Sort Files in the File List"
+msgstr "自动对文件列表中的文件进行排序"
+
+#: rc.cpp:478
+#, no-c-format
+msgid ""
+"Sorts files in the project's file list when a project is loaded. This may be "
+"too slow for large projects on older machines."
+msgstr ""
+"当载入一个工程时，自动在工程的文件列表中对文件进行排序。如果在旧机器 上编辑很"
+"大的项目，这可能会导致响应变慢。"
+
+#: rc.cpp:481
+#, no-c-format
+msgid "System Profile"
+msgstr "系统偏好文件"
+
+#: rc.cpp:484
+#, no-c-format
+msgid "Fast"
+msgstr "快"
+
+#: rc.cpp:487
+#, no-c-format
+msgid "Slow"
+msgstr "慢"
+
+#: rc.cpp:490
+#, no-c-format
+msgid "Editor Popup Menu"
+msgstr "编辑器弹出菜单"
+
+#: rc.cpp:493
+#, no-c-format
+msgid "Embedded"
+msgstr "嵌入"
+
+#: rc.cpp:496
+#, no-c-format
+msgid "KScope Only"
+msgstr "仅KScope"
+
+#: rc.cpp:499
+#, no-c-format
+msgid "Project Files"
+msgstr "工程文件"
+
+#: rc.cpp:502
+#, no-c-format
+msgid "Filter"
+msgstr "过滤"
+
+#: rc.cpp:505
+#, no-c-format
+msgid "Show All"
+msgstr "显示全部"
+
+#: rc.cpp:511
+#, no-c-format
+msgid "Files..."
+msgstr "文件..."
+
+#: rc.cpp:514 rc.cpp:526
+#, no-c-format
+msgid "Directory..."
+msgstr "目录..."
+
+#: rc.cpp:517 rc.cpp:529
+#, no-c-format
+msgid "Tree..."
+msgstr "树..."
+
+#: rc.cpp:523
+#, no-c-format
+msgid "Selected"
+msgstr "已有选择"
+
+#: rc.cpp:539
+#, no-c-format
+msgid "Query Results"
+msgstr "查询结果"
+
+#: rc.cpp:542
+#, no-c-format
+msgid "Right-click inside the list for more options."
+msgstr "在列表内右击以获取更多选项。"
+
+#: rc.cpp:553
+#, no-c-format
+msgid "Form2"
+msgstr "Form2"
+
+#: rc.cpp:556
+#, no-c-format
+msgid "Scanning Directory"
+msgstr "正在扫描目录"
+
+#: rc.cpp:559
+#, no-c-format
+msgid "Scanned 0 files..."
+msgstr "已扫描0个文件..."
+
+#: rc.cpp:565
+#, no-c-format
+msgid "Filter Query Results"
+msgstr "过滤查询结果"
+
+#: rc.cpp:568
+#, no-c-format
+msgid "Search For:"
+msgstr "查找:"
+
+#: rc.cpp:571
+#, no-c-format
+msgid "Search In:"
+msgstr "在...中查找:"
+
+#: rc.cpp:586
+#, no-c-format
+msgid "Search Type"
+msgstr "查找类型"
+
+#: rc.cpp:589
+#, no-c-format
+msgid "Plain Text"
+msgstr "纯文本"
+
+#: rc.cpp:592
+#, no-c-format
+msgid "RegE&xp"
+msgstr "正则表达式(&X)"
+
+#: rc.cpp:595
+#, no-c-format
+msgid "Simplified RegExp"
+msgstr "简化的正则表达式"
+
+#: rc.cpp:598
+#, no-c-format
+msgid "Case Sensitive"
+msgstr "大小写敏感"
+
+#: rc.cpp:601
+#, no-c-format
+msgid "Negate Search"
+msgstr "反转查找"
+
+#: rc.cpp:610
+#, no-c-format
+msgid "KScope Query"
+msgstr "KScope查询"
+
+#: rc.cpp:616
+#, no-c-format
+msgid "Symbol"
+msgstr "符号"
+
+#: rc.cpp:619
+#, no-c-format
+msgid "References to"
+msgstr "对它的引用"
+
+#: rc.cpp:622
+#, no-c-format
+msgid "Definition of"
+msgstr "定义"
+
+#: rc.cpp:625
+#, no-c-format
+msgid "Functions called by"
+msgstr "被它调用的函数"
+
+#: rc.cpp:628
+#, no-c-format
+msgid "Functions calling"
+msgstr "调用它的函数"
+
+#: rc.cpp:631
+#, no-c-format
+msgid "Find text"
+msgstr "查找文字"
+
+#: rc.cpp:634
+#, no-c-format
+msgid "Find EGrep pattern"
+msgstr "查找EGrep模式"
+
+#: rc.cpp:637
+#, no-c-format
+msgid "Find file"
+msgstr "查找文件"
+
+#: rc.cpp:640
+#, no-c-format
+msgid "Files #including"
+msgstr "#include它的文件"
+
+#: rc.cpp:643
+#, no-c-format
+msgid "Call graph for"
+msgstr "调用图"
+
+#: rc.cpp:646
+#, no-c-format
+msgid "Search for &a Sub-String"
+msgstr "查找子字符串(&A)"
+
+#: rc.cpp:655
+#, no-c-format
+msgid "Hi&nt"
+msgstr "提示(&N)"
+
+#: rc.cpp:661
+#, no-c-format
+msgid "Hint Options"
+msgstr "提示选项"
+
+#: rc.cpp:664
+#, no-c-format
+msgid "S&ymbols Beginning With..."
+msgstr "以...开头的符号(&Y)..."
+
+#: rc.cpp:667
+#, no-c-format
+msgid "Sym&bols Containing..."
+msgstr "包含...的符号(&B)..."
+
+#: rc.cpp:670
+#, no-c-format
+msgid "Welcome"
+msgstr "欢迎"
+
+#: rc.cpp:673
+#, no-c-format
+msgid ""
+"<h1>Welcome to <font color=\"#c00000\">KScope</font>!</h1>\n"
+"\n"
+"If this is the first time you are running Kscope, please follow these steps "
+"(click on the links for detailed instructions):\n"
+"<p>\n"
+"1. <a href=\"help:/kscope/configuration.html#config-progs\">Configure</a> "
+"paths to the required back-end executables<br>\n"
+"2. <a href=\"help:/kscope/projects.html#project-create\">Create</a> a new "
+"project<br>\n"
+"3. <a href=\"help:/kscope/projects.html#project-files\">Populate</a> the "
+"project with source files<br>\n"
+"4. <a href=\"help:/kscope/queries.html\">Browse</a> the project and <a href="
+"\"help:/kscope/editing.html\">edit</a> files<br>\n"
+"\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"For more information, please take a look at KScope's <a href=\"help:/kscope"
+"\">manual</a>, or visit the KScope <a href=\"http://kscope.sourceforge.net"
+"\">website</a>.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Enjoy!\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"<font size=\"-1\">This message will only appear once. Use the \"<b>Help-"
+">Show Welcome Message...</b>\" menu command to show it again at any time.</"
+"font>\n"
+"</p>"
+msgstr ""
+"<h1>欢迎使用 <font color=\"#c00000\">KScope</font>!</h1>\n"
+"\n"
+"如果这是您第一次使用KScope，请按照下面的步骤做(点击连接可以获取更详细 的指"
+"示)：\n"
+"<p>\n"
+"1. <a href=\"help:/kscope/configuration.html#config-progs\">配置</a> 必要的后"
+"台程序所在的路径<br>\n"
+"2. <a href=\"help:/kscope/projects.html#project-create\">创建</a> 一个新工程"
+"<br>\n"
+"3. 向工程中<a href=\"help:/kscope/projects.html#project-files\">添加</a>源文"
+"件<br>\n"
+"4. <a href=\"help:/kscope/queries.html\">浏览</a> 工程，<a href=\"help:/"
+"kscope/editing.html\">编辑</a>文件<br>\n"
+"\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"请查看KScope<a href=\"help:/kscope\">手册</a>, 或访问KScope <a href=\"http://"
+"kscope.sourceforge.net\">网站</a>以获取更多信息.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"请尽情享受KScope吧!\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"<font size=\"-1\">此消息只会显示一次。可以使用菜单中的\"<b>帮助->显示欢迎信"
+"息...</b>\"项来再次显示它。</font>\n"
+"</p>"
+
+#: scanprogressdlg.cpp:76
+#, c-format
+msgid "Scanned %d files..."
+msgstr "已扫描%d个文件..."
+
+#: symbolcompletion.cpp:272
+msgid "No matching completion found..."
+msgstr "未找到匹配的补足"
+
+#: symbolcompletion.cpp:277
+msgid "Too many options..."
+msgstr "选项太多..."
+
+#: symboldlg.cpp:55
+msgid "Suggested Symbols"
+msgstr "建议的符号"
+
+#: tabwidget.cpp:50
+msgid "Shows a list of all open tabs"
+msgstr "显示包含全部已打开标签页的列表"
+
+#~ msgid "OK"
+#~ msgstr "确定"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgid "Close"
+#~ msgstr "关闭"
+
+#~ msgid "Save As..."
+#~ msgstr "另存为..."
+
+#~ msgid "Clear"
+#~ msgstr "清除"
+
+#~ msgid "Fonts"
+#~ msgstr "字体"
+
+#~ msgid "&OK"
+#~ msgstr "确定(&O)"
+
+#~ msgid "&Cancel"
+#~ msgstr "取消(&C)"
+
+#~ msgid "&Close"
+#~ msgstr "关闭(&C)"
+
+#~ msgid "&Options"
+#~ msgstr "选项(&O)"
+
+#~ msgid "Remove"
+#~ msgstr "删除"
+
+#~ msgid "Font"
+#~ msgstr "字体"
+
+#~ msgid "Add"
+#~ msgstr "添加"
+
+#~ msgid "File"
+#~ msgstr "文件"
+
+#~ msgid "&File"
+#~ msgstr "文件(&F)"
+
+#~ msgid "&Edit"
+#~ msgstr "编辑(&E)"
+
+#~ msgid "&View"
+#~ msgstr "查看(&V)"
+
+#~ msgid "&Settings"
+#~ msgstr "设置(&S)"
+
+#~ msgid "&Help"
+#~ msgstr "帮助(&H)"
+
+#~ msgid "&Properties..."
+#~ msgstr "偏好设置(&P)..."
+
+#~ msgid "Options"
+#~ msgstr "选项"
+
+#~ msgid "&Copy"
+#~ msgstr "复制(&C)"

@@ -1,0 +1,1515 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-08-02 09:22-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr ""
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr ""
+
+#: calltreedlg.cpp:308 rc.cpp:73 rc.cpp:80
+#, no-c-format
+msgid "Call Graph"
+msgstr ""
+
+#: calltreedlg.cpp:310
+msgid "Right-click a function node or an arrow head for more options."
+msgstr ""
+
+#: calltreedlg.cpp:316 rc.cpp:86
+#, no-c-format
+msgid "Called Functions Tree"
+msgstr ""
+
+#: calltreedlg.cpp:318 calltreedlg.cpp:327
+msgid "Right-click a tree item for more options."
+msgstr ""
+
+#: calltreedlg.cpp:325 rc.cpp:92
+#, no-c-format
+msgid "Calling Functions Tree"
+msgstr ""
+
+#: cscopefrontend.cpp:416
+msgid "Processing query results, please wait..."
+msgstr ""
+
+#: ctagsfrontend.cpp:104
+msgid "Ctags cannot be found in the given path"
+msgstr ""
+
+#: ctagslist.cpp:147 rc.cpp:221
+#, no-c-format
+msgid "Name"
+msgstr ""
+
+#: ctagslist.cpp:148 queryview.cpp:53 rc.cpp:580
+#, no-c-format
+msgid "Line"
+msgstr ""
+
+#: ctagslist.cpp:149 rc.cpp:613
+#, no-c-format
+msgid "Type"
+msgstr ""
+
+#: ctagslist.cpp:189 queryview.cpp:51 rc.cpp:574
+#, no-c-format
+msgid "Function"
+msgstr ""
+
+#: ctagslist.cpp:194
+msgid "Variable"
+msgstr ""
+
+#: ctagslist.cpp:199
+msgid "Struct"
+msgstr ""
+
+#: ctagslist.cpp:204
+msgid "Macro"
+msgstr ""
+
+#: ctagslist.cpp:209
+msgid "Member"
+msgstr ""
+
+#: ctagslist.cpp:214
+msgid "Enum"
+msgstr ""
+
+#: ctagslist.cpp:219
+msgid "Enumerator"
+msgstr ""
+
+#: ctagslist.cpp:224
+msgid "Typedef"
+msgstr ""
+
+#: ctagslist.cpp:229
+msgid "Label"
+msgstr ""
+
+#: ctagslist.cpp:234
+msgid "Include"
+msgstr ""
+
+#: dotfrontend.cpp:99
+msgid "Dot cannot be found in the given path"
+msgstr ""
+
+#: editortabs.cpp:190
+msgid ""
+"Some files contain unsaved changes.\n"
+"Would you like to save these files?"
+msgstr ""
+
+#: editortabs.cpp:295
+msgid "Untitled "
+msgstr ""
+
+#: editortabs.cpp:299
+msgid "New unsaved file"
+msgstr ""
+
+#: filelist.cpp:47 rc.cpp:215
+#, no-c-format
+msgid "Path"
+msgstr ""
+
+#: frontend.cpp:84
+msgid "Cannot restart while another process is still running"
+msgstr ""
+
+#: frontend.cpp:104
+msgid ": Failed to start process"
+msgstr ""
+
+#: frontend.cpp:108
+msgid "No error"
+msgstr ""
+
+#: graphwidget.cpp:161
+msgid "<b>Called Functions</b>"
+msgstr ""
+
+#: graphwidget.cpp:163 graphwidget.cpp:172
+msgid "Show"
+msgstr ""
+
+#: graphwidget.cpp:165 graphwidget.cpp:174
+msgid "List/Filter..."
+msgstr ""
+
+#: graphwidget.cpp:167 graphwidget.cpp:176 rc.cpp:135
+#, no-c-format
+msgid "Hide"
+msgstr ""
+
+#: graphwidget.cpp:170
+msgid "<b>Calling Functions</b>"
+msgstr ""
+
+#: graphwidget.cpp:179
+msgid "<b>This Function</b>"
+msgstr ""
+
+#: graphwidget.cpp:181
+msgid "Find Definition"
+msgstr ""
+
+#: graphwidget.cpp:187
+msgid "List..."
+msgstr ""
+
+#: graphwidget.cpp:195
+msgid "Open Call"
+msgstr ""
+
+#: graphwidget.cpp:341 kscope.cpp:559 main.cpp:58
+msgid "KScope"
+msgstr ""
+
+#: graphwidget.cpp:342
+msgid "Generating graph, please wait"
+msgstr ""
+
+#: graphwidget.cpp:889
+msgid ""
+"The query produced too many results.\n"
+"A multiple-call node will appear in the graph instead.\n"
+"Hint: The maximum number of in/out edges\n"
+"can be adjusted by clicking the dialogue's \"Preferences\" button"
+msgstr ""
+
+#: historypage.cpp:111
+msgid "HIS "
+msgstr ""
+
+#: historypage.cpp:111
+msgid "History "
+msgstr ""
+
+#: kscope.cpp:206
+msgid " Line: N/A Col: N/A "
+msgstr ""
+
+#: kscope.cpp:287
+msgid ""
+"The current project needs to be closed before a new one is created.\n"
+"Would you like to close it now?"
+msgstr ""
+
+#: kscope.cpp:348
+msgid "The Add/Remove Files dialogue is not available for temporary projects."
+msgstr ""
+
+#: kscope.cpp:381
+msgid ""
+"The Project Properties dialogue is not available for temporary projects."
+msgstr ""
+
+#: kscope.cpp:559
+msgid "Please wait while KScope builds the database"
+msgstr ""
+
+#: kscope.cpp:934
+msgid "Verifying Cscope installation..."
+msgstr ""
+
+#: kscope.cpp:1122
+msgid "Verifying Cscope installation...Done"
+msgstr ""
+
+#: kscope.cpp:1130
+msgid ""
+"Cscope may not be properly installed on this system.\n"
+"Please check the Cscope path specified in KScope's configuration dialogue."
+msgstr ""
+
+#: kscope.cpp:1553
+msgid "Rebuilding the cross reference database..."
+msgstr ""
+
+#: kscope.cpp:1566
+msgid "Please wait while KScope builds the inverted index"
+msgstr ""
+
+#: kscope.cpp:1572
+msgid "Rebuilding inverted index..."
+msgstr ""
+
+#: kscope.cpp:1590
+msgid "Rebuilding the cross reference database...Done!"
+msgstr ""
+
+#: kscope.cpp:1607
+msgid ""
+"The database could not be built.\n"
+"Cross-reference information will not be available for this project.\n"
+"Please ensure that the Cscope parameters were correctly entered in the "
+"\"Settings\" dialogue."
+msgstr ""
+
+#: kscope.cpp:1616
+msgid "Rebuilding the cross reference database...Failed"
+msgstr ""
+
+#: kscope.cpp:1687
+msgid "Whould you like to add this file to the active project?"
+msgstr ""
+
+#: kscope.cpp:1692
+msgid "Failed to write the file list."
+msgstr ""
+
+#: kscopeactions.cpp:58
+msgid "Go to File List"
+msgstr ""
+
+#: kscopeactions.cpp:66
+msgid "Save Al&l"
+msgstr ""
+
+#: kscopeactions.cpp:75
+msgid "Edit in E&xternal Editor"
+msgstr ""
+
+#: kscopeactions.cpp:83
+msgid "Go To Tag"
+msgstr ""
+
+#: kscopeactions.cpp:91
+msgid "Complete Symbol"
+msgstr ""
+
+#: kscopeactions.cpp:100
+msgid "&New Project..."
+msgstr ""
+
+#: kscopeactions.cpp:108
+msgid "&Open Project..."
+msgstr ""
+
+#: kscopeactions.cpp:116
+msgid "Open &Cscope.out..."
+msgstr ""
+
+#: kscopeactions.cpp:124
+msgid "Add/Remove &Files..."
+msgstr ""
+
+#: kscopeactions.cpp:140
+msgid "&Make Project"
+msgstr ""
+
+#: kscopeactions.cpp:148
+msgid "&Remake Project"
+msgstr ""
+
+#: kscopeactions.cpp:156
+msgid "&Close Project"
+msgstr ""
+
+#: kscopeactions.cpp:165
+msgid "&References..."
+msgstr ""
+
+#: kscopeactions.cpp:173
+msgid "&Definition..."
+msgstr ""
+
+#: kscopeactions.cpp:181
+msgid "&Called Functions..."
+msgstr ""
+
+#: kscopeactions.cpp:189
+msgid "C&alling Functions..."
+msgstr ""
+
+#: kscopeactions.cpp:197
+msgid "Find &Text..."
+msgstr ""
+
+#: kscopeactions.cpp:205
+msgid "Find &EGrep Pattern..."
+msgstr ""
+
+#: kscopeactions.cpp:213
+msgid "Find &File..."
+msgstr ""
+
+#: kscopeactions.cpp:221
+msgid "&Including Files..."
+msgstr ""
+
+#: kscopeactions.cpp:229
+msgid "&Quick Definition"
+msgstr ""
+
+#: kscopeactions.cpp:237
+msgid "Call &Graph..."
+msgstr ""
+
+#: kscopeactions.cpp:245
+msgid "Re&build database"
+msgstr ""
+
+#: kscopeactions.cpp:254
+msgid "P&revious Result"
+msgstr ""
+
+#: kscopeactions.cpp:262
+msgid "N&ext Result"
+msgstr ""
+
+#: kscopeactions.cpp:270
+msgid "&Previous Position"
+msgstr ""
+
+#: kscopeactions.cpp:278
+msgid "&Next Position"
+msgstr ""
+
+#: kscopeactions.cpp:286
+msgid "Position &History"
+msgstr ""
+
+#: kscopeactions.cpp:294
+msgid "Global &Bookmarks"
+msgstr ""
+
+#: kscopeactions.cpp:303
+msgid "Toggle File List"
+msgstr ""
+
+#: kscopeactions.cpp:311
+msgid "Toggle Query Window"
+msgstr ""
+
+#: kscopeactions.cpp:319
+msgid "Toggle Tag List"
+msgstr ""
+
+#: kscopeactions.cpp:328
+msgid "Close &All"
+msgstr ""
+
+#: kscopeactions.cpp:336
+msgid "Go &Left"
+msgstr ""
+
+#: kscopeactions.cpp:344
+msgid "Go &Right"
+msgstr ""
+
+#: kscopeactions.cpp:357
+msgid "Show &Welcome Message..."
+msgstr ""
+
+#: kscopeactions.cpp:366
+msgid "&New"
+msgstr ""
+
+#: kscopeactions.cpp:374
+msgid "&Refresh"
+msgstr ""
+
+#: kscopeactions.cpp:382
+msgid "&Lock/Unlock"
+msgstr ""
+
+#: main.cpp:36
+msgid ""
+"KScope\n"
+"A source-editing environment for KDE, based on Cscope"
+msgstr ""
+
+#: main.cpp:42
+msgid "Opens a cscope.out file in a temporary project"
+msgstr ""
+
+#: main.cpp:44
+msgid "Opens a KScope project"
+msgstr ""
+
+#: makedlg.cpp:134
+msgid "A make process is running. Would you like to stop it first?"
+msgstr ""
+
+#: makedlg.cpp:135
+msgid "Close Make Window"
+msgstr ""
+
+#: newprojectdlg.cpp:77
+msgid "Project Properties"
+msgstr ""
+
+#: newprojectdlg.cpp:200
+msgid "Project names must not contain whitespace."
+msgstr ""
+
+#: newprojectdlg.cpp:239
+msgid "This is not a valid file type!"
+msgstr ""
+
+#: preferencesdlg.cpp:56 rc.cpp:123
+#, no-c-format
+msgid "Preferences"
+msgstr ""
+
+#: preferencesdlg.cpp:63
+msgid "Programmes"
+msgstr ""
+
+#: preferencesdlg.cpp:64
+msgid "Paths to back-end programmes"
+msgstr ""
+
+#: preferencesdlg.cpp:71 rc.cpp:156
+#, no-c-format
+msgid "Colours"
+msgstr ""
+
+#: preferencesdlg.cpp:71
+msgid "Window colours"
+msgstr ""
+
+#: preferencesdlg.cpp:78
+msgid "Window fonts"
+msgstr ""
+
+#: preferencesdlg.cpp:85
+msgid "Misc. Options"
+msgstr ""
+
+#: preferencesdlg.cpp:187
+msgid "This would reset all your configuration settings! Continue?"
+msgstr ""
+
+#: preffont.cpp:77 preffont.cpp:87
+msgid "Sample"
+msgstr ""
+
+#: preffrontend.cpp:137
+msgid "Looking for Cscope..."
+msgstr ""
+
+#: preffrontend.cpp:141
+msgid "Checking Cscope version..."
+msgstr ""
+
+#: preffrontend.cpp:145
+msgid "Cscope support for line mode verbose output..."
+msgstr ""
+
+#: preffrontend.cpp:150
+msgid "Cscope support slow path definitions... "
+msgstr ""
+
+#: preffrontend.cpp:154
+msgid "Looking for Ctags..."
+msgstr ""
+
+#: preffrontend.cpp:158
+msgid "Ctags compatibilty with ctags-exuberant..."
+msgstr ""
+
+#: preffrontend.cpp:163
+msgid "Looking for Dot..."
+msgstr ""
+
+#: preffrontend.cpp:167
+msgid "Checking -Tplain..."
+msgstr ""
+
+#: project.cpp:98
+msgid "Project directory does not exist"
+msgstr ""
+
+#: project.cpp:111
+msgid ""
+"Your project is not compatible with this version of KScope.\n"
+"Please re-create the project."
+msgstr ""
+
+#: project.cpp:120
+msgid "Cannot read project name"
+msgstr ""
+
+#: projectfilesdlg.cpp:204
+#, c-format
+msgid "Would you like to add %d files to your project?"
+msgstr ""
+
+#: projectfilesdlg.cpp:299
+msgid "Are you sure you want to remove the selected files from the project?"
+msgstr ""
+
+#: projectfilesdlg.cpp:329
+msgid ""
+"Are you sure you want to remove the selected directory from the project?"
+msgstr ""
+
+#: projectfilesdlg.cpp:362
+msgid ""
+"Are you sure you want to remove all files in the selected tree from the "
+"project?"
+msgstr ""
+
+#: projectmanager.cpp:67
+msgid "Cannot create a project inside an existing directory"
+msgstr ""
+
+#: projectmanager.cpp:74
+msgid "Failed to create the project's directory"
+msgstr ""
+
+#: projectmanager.cpp:151
+msgid "No Project"
+msgstr ""
+
+#: queryresultsmenu.cpp:41
+msgid "&View Source"
+msgstr ""
+
+#: queryresultsmenu.cpp:43
+msgid "Find &Definition"
+msgstr ""
+
+#: queryresultsmenu.cpp:48
+msgid "&Filter..."
+msgstr ""
+
+#: queryresultsmenu.cpp:49
+msgid "&Show All"
+msgstr ""
+
+#: queryresultsmenu.cpp:51
+msgid "&Remove Item"
+msgstr ""
+
+#: queryview.cpp:54 rc.cpp:583
+#, no-c-format
+msgid "Text"
+msgstr ""
+
+#: queryview.cpp:213
+msgid "No results"
+msgstr ""
+
+#: querywidget.cpp:446
+msgid ""
+"You about about to close a locked page.\n"
+"Are you sure?"
+msgstr ""
+
+#: rc.cpp:12
+#, no-c-format
+msgid "&Project"
+msgstr ""
+
+#: rc.cpp:15
+#, no-c-format
+msgid "&Cscope"
+msgstr ""
+
+#: rc.cpp:18
+#, no-c-format
+msgid "&Go"
+msgstr ""
+
+#: rc.cpp:21
+#, no-c-format
+msgid "&Window"
+msgstr ""
+
+#: rc.cpp:30
+#, no-c-format
+msgid "&Query"
+msgstr ""
+
+#: rc.cpp:33
+#, no-c-format
+msgid "Cscope"
+msgstr ""
+
+#: rc.cpp:36
+#, no-c-format
+msgid "Project"
+msgstr ""
+
+#: rc.cpp:39
+#, no-c-format
+msgid "Navigation"
+msgstr ""
+
+#: rc.cpp:42
+#, no-c-format
+msgid "Query"
+msgstr ""
+
+#: rc.cpp:45
+#, no-c-format
+msgid "Workspace"
+msgstr ""
+
+#: rc.cpp:48
+#, no-c-format
+msgid "Auto-Completion Properties"
+msgstr ""
+
+#: rc.cpp:51
+#, no-c-format
+msgid "Minimum Characters"
+msgstr ""
+
+#: rc.cpp:54
+#, no-c-format
+msgid "Delay (ms)"
+msgstr ""
+
+#: rc.cpp:57
+#, no-c-format
+msgid "Maximum Entries"
+msgstr ""
+
+#: rc.cpp:66
+#, no-c-format
+msgid "Global Bookmarks"
+msgstr ""
+
+#: rc.cpp:77 rc.cpp:83 rc.cpp:89 rc.cpp:159 rc.cpp:165
+#, no-c-format
+msgid "..."
+msgstr ""
+
+#: rc.cpp:96 rc.cpp:102 rc.cpp:108 rc.cpp:114 rc.cpp:120
+#, no-c-format
+msgid "a"
+msgstr ""
+
+#: rc.cpp:105
+#, no-c-format
+msgid "Zoom In"
+msgstr ""
+
+#: rc.cpp:111
+#, no-c-format
+msgid "Zoom Out"
+msgstr ""
+
+#: rc.cpp:117
+#, no-c-format
+msgid "Rotate"
+msgstr ""
+
+#: rc.cpp:126
+#, no-c-format
+msgid "Help Message"
+msgstr ""
+
+#: rc.cpp:129
+#, no-c-format
+msgid "Cscope Error Messages"
+msgstr ""
+
+#: rc.cpp:138
+#, no-c-format
+msgid "Form1"
+msgstr ""
+
+#: rc.cpp:143
+#, no-c-format
+msgid "Project File List"
+msgstr ""
+
+#: rc.cpp:147
+#, no-c-format
+msgid "File Tree"
+msgstr ""
+
+#: rc.cpp:150
+#, no-c-format
+msgid "Call Graph Preferences"
+msgstr ""
+
+#: rc.cpp:153
+#, no-c-format
+msgid "Maximal In/Out Node Degree"
+msgstr ""
+
+#: rc.cpp:176
+#, no-c-format
+msgid "KScope - Make"
+msgstr ""
+
+#: rc.cpp:179
+#, no-c-format
+msgid "Root Directory:"
+msgstr ""
+
+#: rc.cpp:182
+#, no-c-format
+msgid "Command:"
+msgstr ""
+
+#: rc.cpp:185
+#, no-c-format
+msgid "Output"
+msgstr ""
+
+#: rc.cpp:188
+#, no-c-format
+msgid "Errors a&nd Warnings"
+msgstr ""
+
+#: rc.cpp:191
+#, no-c-format
+msgid "&Make"
+msgstr ""
+
+#: rc.cpp:194
+#, no-c-format
+msgid "Alt+M"
+msgstr ""
+
+#: rc.cpp:197
+#, no-c-format
+msgid "&Stop"
+msgstr ""
+
+#: rc.cpp:200
+#, no-c-format
+msgid "Alt+S"
+msgstr ""
+
+#: rc.cpp:206
+#, no-c-format
+msgid "Alt+C"
+msgstr ""
+
+#: rc.cpp:209
+#, no-c-format
+msgid "Create Project"
+msgstr ""
+
+#: rc.cpp:212
+#, no-c-format
+msgid "Detai&ls"
+msgstr ""
+
+#: rc.cpp:218
+#, no-c-format
+msgid "Source Root (Optional)"
+msgstr ""
+
+#: rc.cpp:224
+#, no-c-format
+msgid ""
+"Enter a name for this project.\n"
+"The name must conform to the file system's naming conventions for "
+"directories (e.g., no spaces, exclamaion marks, etc.)."
+msgstr ""
+
+#: rc.cpp:228
+#, no-c-format
+msgid ""
+"The path to hold this project.\n"
+"KScope will create a directory with the given name under this project, and "
+"populate it with the project configuration and database files.\n"
+"This does not need to be the path in which the source files reside."
+msgstr ""
+
+#: rc.cpp:233
+#, no-c-format
+msgid ""
+"<blockquote>A project consists of several files located in a directory\n"
+" with the given name and path. The project's name needs to be a valid "
+"directory\n"
+"name and must not contain any whitespace.</blockquote>\n"
+"<br>\n"
+"<blockquote>The Source Root is a convinient way to specify a common\n"
+"path for all source files, but is not required.</blockquote>"
+msgstr ""
+
+#: rc.cpp:241
+#, no-c-format
+msgid "File T&ypes"
+msgstr ""
+
+#: rc.cpp:244
+#, no-c-format
+msgid "This Project"
+msgstr ""
+
+#: rc.cpp:247
+#, no-c-format
+msgid ""
+"KScope uses these filters to locate source files to include in this project."
+msgstr ""
+
+#: rc.cpp:250
+#, no-c-format
+msgid "<< &Add"
+msgstr ""
+
+#: rc.cpp:253 rc.cpp:649
+#, no-c-format
+msgid "Alt+A"
+msgstr ""
+
+#: rc.cpp:256
+#, no-c-format
+msgid "Adds the selected file type to the current project."
+msgstr ""
+
+#: rc.cpp:259
+#, no-c-format
+msgid ">> &Remove"
+msgstr ""
+
+#: rc.cpp:262
+#, no-c-format
+msgid "Alt+R"
+msgstr ""
+
+#: rc.cpp:265
+#, no-c-format
+msgid "Remove the selected file type from the project."
+msgstr ""
+
+#: rc.cpp:268
+#, no-c-format
+msgid "Available Types"
+msgstr ""
+
+#: rc.cpp:271
+#, no-c-format
+msgid "You can enter custom file types here."
+msgstr ""
+
+#: rc.cpp:274
+#, no-c-format
+msgid "*.c"
+msgstr ""
+
+#: rc.cpp:277
+#, no-c-format
+msgid "*.h"
+msgstr ""
+
+#: rc.cpp:280
+#, no-c-format
+msgid "*.l"
+msgstr ""
+
+#: rc.cpp:283
+#, no-c-format
+msgid "*.y"
+msgstr ""
+
+#: rc.cpp:286
+#, no-c-format
+msgid "*.S"
+msgstr ""
+
+#: rc.cpp:289
+#, no-c-format
+msgid "*.cc"
+msgstr ""
+
+#: rc.cpp:292
+#, no-c-format
+msgid "*.cpp"
+msgstr ""
+
+#: rc.cpp:295
+#, no-c-format
+msgid "*.cxx"
+msgstr ""
+
+#: rc.cpp:298
+#, no-c-format
+msgid "*.C"
+msgstr ""
+
+#: rc.cpp:301
+#, no-c-format
+msgid "*.hh"
+msgstr ""
+
+#: rc.cpp:304
+#, no-c-format
+msgid "*.hpp"
+msgstr ""
+
+#: rc.cpp:307
+#, no-c-format
+msgid "*.hxx"
+msgstr ""
+
+#: rc.cpp:310
+#, no-c-format
+msgid "*.H"
+msgstr ""
+
+#: rc.cpp:313
+#, no-c-format
+msgid "A list of standard file types."
+msgstr ""
+
+#: rc.cpp:319
+#, no-c-format
+msgid "Kernel project (-k)"
+msgstr ""
+
+#: rc.cpp:323
+#, no-c-format
+msgid ""
+"For kernel projects, symbols are not looked up in the standard include path."
+msgstr ""
+
+#: rc.cpp:326
+#, no-c-format
+msgid "Build inverted inde&x (-q)"
+msgstr ""
+
+#: rc.cpp:329
+#, no-c-format
+msgid "Alt+X"
+msgstr ""
+
+#: rc.cpp:332
+#, no-c-format
+msgid ""
+"An inverted index may greatly speed up searches in a large project. The "
+"project's building process is longer, though."
+msgstr ""
+
+#: rc.cpp:335
+#, no-c-format
+msgid "Do not compress the database (-c)"
+msgstr ""
+
+#: rc.cpp:339
+#, no-c-format
+msgid "Slower, but more accurate, function definition detection (-D)"
+msgstr ""
+
+#: rc.cpp:342
+#, no-c-format
+msgid "Refresh data&base automatically"
+msgstr ""
+
+#: rc.cpp:345
+#, no-c-format
+msgid "Alt+B"
+msgstr ""
+
+#: rc.cpp:348
+#, no-c-format
+msgid "Rebuild the database after changed files are saved to disk."
+msgstr ""
+
+#: rc.cpp:351
+#, no-c-format
+msgid "(Seconds)"
+msgstr ""
+
+#: rc.cpp:354
+#, no-c-format
+msgid ""
+"Wait this number of seconds after the last save before rebuilding the "
+"database."
+msgstr ""
+
+#: rc.cpp:357
+#, no-c-format
+msgid "&Use symbol auto-completion"
+msgstr ""
+
+#: rc.cpp:360
+#, no-c-format
+msgid "Alt+U"
+msgstr ""
+
+#: rc.cpp:363
+#, no-c-format
+msgid "As-you-type symbol completion."
+msgstr ""
+
+#: rc.cpp:366
+#, no-c-format
+msgid "Options..."
+msgstr ""
+
+#: rc.cpp:369
+#, no-c-format
+msgid "Override default tab width (Kate only)"
+msgstr ""
+
+#: rc.cpp:372
+#, no-c-format
+msgid "Overrides the editor's configured tab width"
+msgstr ""
+
+#: rc.cpp:375
+#, no-c-format
+msgid "Cre&ate"
+msgstr ""
+
+#: rc.cpp:378
+#, no-c-format
+msgid "Ca&ncel"
+msgstr ""
+
+#: rc.cpp:381
+#, no-c-format
+msgid "Open Project"
+msgstr ""
+
+#: rc.cpp:384
+#, no-c-format
+msgid "Project Path"
+msgstr ""
+
+#: rc.cpp:387
+#, no-c-format
+msgid "Recent Projects"
+msgstr ""
+
+#: rc.cpp:393
+#, no-c-format
+msgid "&Open"
+msgstr ""
+
+#: rc.cpp:396
+#, no-c-format
+msgid "Alt+O"
+msgstr ""
+
+#: rc.cpp:399
+#, no-c-format
+msgid "C&ancel"
+msgstr ""
+
+#: rc.cpp:402 rc.cpp:411 rc.cpp:435
+#, no-c-format
+msgid "Form4"
+msgstr ""
+
+#: rc.cpp:405 rc.cpp:414
+#, no-c-format
+msgid "GUI Element"
+msgstr ""
+
+#: rc.cpp:408
+#, no-c-format
+msgid "Colour"
+msgstr ""
+
+#: rc.cpp:420
+#, no-c-format
+msgid "Form3"
+msgstr ""
+
+#: rc.cpp:423
+#, no-c-format
+msgid "Cscope path:"
+msgstr ""
+
+#: rc.cpp:426
+#, no-c-format
+msgid "Ctags path:"
+msgstr ""
+
+#: rc.cpp:429
+#, no-c-format
+msgid "Dot path:"
+msgstr ""
+
+#: rc.cpp:432
+#, no-c-format
+msgid "G&uess"
+msgstr ""
+
+#: rc.cpp:438
+#, no-c-format
+msgid ""
+"Determines whether KScope should automatically load the last project when "
+"started."
+msgstr ""
+
+#: rc.cpp:441
+#, no-c-format
+msgid "External Editor"
+msgstr ""
+
+#: rc.cpp:444
+#, no-c-format
+msgid "Read-Onl&y Mode"
+msgstr ""
+
+#: rc.cpp:447
+#, no-c-format
+msgid "Alt+Y"
+msgstr ""
+
+#: rc.cpp:450
+#, no-c-format
+msgid ""
+"Forces all editor windows to work in a read-only mode, so that the user "
+"cannot modify the displayed files."
+msgstr ""
+
+#: rc.cpp:453
+#, no-c-format
+msgid "Open Last Project on Start-Up"
+msgstr ""
+
+#: rc.cpp:456
+#, no-c-format
+msgid "Automatic Tag Highlighting"
+msgstr ""
+
+#: rc.cpp:459
+#, no-c-format
+msgid ""
+"Determines whether the tag list should highlight the relevant tag based on "
+"the cursor's position."
+msgstr ""
+
+#: rc.cpp:462
+#, no-c-format
+msgid "Brief Tab Captions for &Query Pages"
+msgstr ""
+
+#: rc.cpp:465
+#, no-c-format
+msgid ""
+"If set, the tab captions for query pages will be shortened, by using aliases "
+"for the query types."
+msgstr ""
+
+#: rc.cpp:468
+#, no-c-format
+msgid "Warn When a File is Modified Outside KScope"
+msgstr ""
+
+#: rc.cpp:471
+#, no-c-format
+msgid ""
+"If set, the user is prompted whenever the currently edited file is changed "
+"by an external programme."
+msgstr ""
+
+#: rc.cpp:474
+#, no-c-format
+msgid "Automatically Sort Files in the File List"
+msgstr ""
+
+#: rc.cpp:478
+#, no-c-format
+msgid ""
+"Sorts files in the project's file list when a project is loaded. This may be "
+"too slow for large projects on older machines."
+msgstr ""
+
+#: rc.cpp:481
+#, no-c-format
+msgid "System Profile"
+msgstr ""
+
+#: rc.cpp:484
+#, no-c-format
+msgid "Fast"
+msgstr ""
+
+#: rc.cpp:487
+#, no-c-format
+msgid "Slow"
+msgstr ""
+
+#: rc.cpp:490
+#, no-c-format
+msgid "Editor Popup Menu"
+msgstr ""
+
+#: rc.cpp:493
+#, no-c-format
+msgid "Embedded"
+msgstr ""
+
+#: rc.cpp:496
+#, no-c-format
+msgid "KScope Only"
+msgstr ""
+
+#: rc.cpp:499
+#, no-c-format
+msgid "Project Files"
+msgstr ""
+
+#: rc.cpp:502
+#, no-c-format
+msgid "Filter"
+msgstr ""
+
+#: rc.cpp:505
+#, no-c-format
+msgid "Show All"
+msgstr ""
+
+#: rc.cpp:511
+#, no-c-format
+msgid "Files..."
+msgstr ""
+
+#: rc.cpp:514 rc.cpp:526
+#, no-c-format
+msgid "Directory..."
+msgstr ""
+
+#: rc.cpp:517 rc.cpp:529
+#, no-c-format
+msgid "Tree..."
+msgstr ""
+
+#: rc.cpp:523
+#, no-c-format
+msgid "Selected"
+msgstr ""
+
+#: rc.cpp:539
+#, no-c-format
+msgid "Query Results"
+msgstr ""
+
+#: rc.cpp:542
+#, no-c-format
+msgid "Right-click inside the list for more options."
+msgstr ""
+
+#: rc.cpp:553
+#, no-c-format
+msgid "Form2"
+msgstr ""
+
+#: rc.cpp:556
+#, no-c-format
+msgid "Scanning Directory"
+msgstr ""
+
+#: rc.cpp:559
+#, no-c-format
+msgid "Scanned 0 files..."
+msgstr ""
+
+#: rc.cpp:565
+#, no-c-format
+msgid "Filter Query Results"
+msgstr ""
+
+#: rc.cpp:568
+#, no-c-format
+msgid "Search For:"
+msgstr ""
+
+#: rc.cpp:571
+#, no-c-format
+msgid "Search In:"
+msgstr ""
+
+#: rc.cpp:586
+#, no-c-format
+msgid "Search Type"
+msgstr ""
+
+#: rc.cpp:589
+#, no-c-format
+msgid "Plain Text"
+msgstr ""
+
+#: rc.cpp:592
+#, no-c-format
+msgid "RegE&xp"
+msgstr ""
+
+#: rc.cpp:595
+#, no-c-format
+msgid "Simplified RegExp"
+msgstr ""
+
+#: rc.cpp:598
+#, no-c-format
+msgid "Case Sensitive"
+msgstr ""
+
+#: rc.cpp:601
+#, no-c-format
+msgid "Negate Search"
+msgstr ""
+
+#: rc.cpp:610
+#, no-c-format
+msgid "KScope Query"
+msgstr ""
+
+#: rc.cpp:616
+#, no-c-format
+msgid "Symbol"
+msgstr ""
+
+#: rc.cpp:619
+#, no-c-format
+msgid "References to"
+msgstr ""
+
+#: rc.cpp:622
+#, no-c-format
+msgid "Definition of"
+msgstr ""
+
+#: rc.cpp:625
+#, no-c-format
+msgid "Functions called by"
+msgstr ""
+
+#: rc.cpp:628
+#, no-c-format
+msgid "Functions calling"
+msgstr ""
+
+#: rc.cpp:631
+#, no-c-format
+msgid "Find text"
+msgstr ""
+
+#: rc.cpp:634
+#, no-c-format
+msgid "Find EGrep pattern"
+msgstr ""
+
+#: rc.cpp:637
+#, no-c-format
+msgid "Find file"
+msgstr ""
+
+#: rc.cpp:640
+#, no-c-format
+msgid "Files #including"
+msgstr ""
+
+#: rc.cpp:643
+#, no-c-format
+msgid "Call graph for"
+msgstr ""
+
+#: rc.cpp:646
+#, no-c-format
+msgid "Search for &a Sub-String"
+msgstr ""
+
+#: rc.cpp:655
+#, no-c-format
+msgid "Hi&nt"
+msgstr ""
+
+#: rc.cpp:661
+#, no-c-format
+msgid "Hint Options"
+msgstr ""
+
+#: rc.cpp:664
+#, no-c-format
+msgid "S&ymbols Beginning With..."
+msgstr ""
+
+#: rc.cpp:667
+#, no-c-format
+msgid "Sym&bols Containing..."
+msgstr ""
+
+#: rc.cpp:670
+#, no-c-format
+msgid "Welcome"
+msgstr ""
+
+#: rc.cpp:673
+#, no-c-format
+msgid ""
+"<h1>Welcome to <font color=\"#c00000\">KScope</font>!</h1>\n"
+"\n"
+"If this is the first time you are running Kscope, please follow these steps "
+"(click on the links for detailed instructions):\n"
+"<p>\n"
+"1. <a href=\"help:/kscope/configuration.html#config-progs\">Configure</a> "
+"paths to the required back-end executables<br>\n"
+"2. <a href=\"help:/kscope/projects.html#project-create\">Create</a> a new "
+"project<br>\n"
+"3. <a href=\"help:/kscope/projects.html#project-files\">Populate</a> the "
+"project with source files<br>\n"
+"4. <a href=\"help:/kscope/queries.html\">Browse</a> the project and <a href="
+"\"help:/kscope/editing.html\">edit</a> files<br>\n"
+"\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"For more information, please take a look at KScope's <a href=\"help:/kscope"
+"\">manual</a>, or visit the KScope <a href=\"http://kscope.sourceforge.net"
+"\">website</a>.\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Enjoy!\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"<font size=\"-1\">This message will only appear once. Use the \"<b>Help-"
+">Show Welcome Message...</b>\" menu command to show it again at any time.</"
+"font>\n"
+"</p>"
+msgstr ""
+
+#: scanprogressdlg.cpp:76
+#, c-format
+msgid "Scanned %d files..."
+msgstr ""
+
+#: symbolcompletion.cpp:272
+msgid "No matching completion found..."
+msgstr ""
+
+#: symbolcompletion.cpp:277
+msgid "Too many options..."
+msgstr ""
+
+#: symboldlg.cpp:55
+msgid "Suggested Symbols"
+msgstr ""
+
+#: tabwidget.cpp:50
+msgid "Shows a list of all open tabs"
+msgstr ""
