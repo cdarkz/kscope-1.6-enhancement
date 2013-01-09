@@ -214,6 +214,12 @@ void QueryView::queryFinished(uint nRecords, QListViewItem*)
 	if (nRecords == 0)
 		addRecord(i18n("No results"), "", "", "", NULL);
 	
+	//Resize all columns
+	adjustColumn(0);
+	adjustColumn(1);
+	adjustColumn(2);
+	adjustColumn(3);
+
 	// Data is available, instruct the owner object to show the view
 	emit needToShow();
 }

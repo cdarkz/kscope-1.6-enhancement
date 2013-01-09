@@ -262,6 +262,13 @@ void MakeDlg::slotAddError(const QString& sFile, const QString& sLine,
 	
 	sUniText = QTextCodec::codecForLocale()->toUnicode(sText);
 	m_pErrorView->addRecord("", sFile, sLine, sUniText);
+
+	// Adjust the column width
+	m_pErrorView->setColumnWidthMode(0, QListView::Manual);
+	m_pErrorView->setColumnWidth(0, 0);
+	m_pErrorView->adjustColumn(1);
+	m_pErrorView->adjustColumn(2);
+	m_pErrorView->adjustColumn(3);
 }
 	
 #include "makedlg.moc"

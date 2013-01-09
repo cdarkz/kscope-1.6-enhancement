@@ -407,6 +407,11 @@ void CtagsList::slotCtagsFinished(uint nRecords)
 		if (m_nPendLine)
 			gotoLine(m_nPendLine);
 	}
+
+	// Adjust the columns width
+	m_pList->adjustColumn(0);
+	m_pList->adjustColumn(1);
+	m_pList->adjustColumn(2);
 }
 
 /**
