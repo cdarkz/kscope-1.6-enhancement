@@ -227,6 +227,7 @@ private slots:
 	void slotBuildAborted();
 	void slotApplyPref();
 	void slotShowCursorPos(uint, uint);
+	void slotMakeShowResult(const QString&);
 	void slotQueryShowEditor(const QString&, uint);
 	void slotDropEvent(QDropEvent*);
 	void slotCscopeVerified(bool, uint);

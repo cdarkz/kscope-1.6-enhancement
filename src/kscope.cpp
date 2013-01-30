@@ -204,6 +204,7 @@ void KScope::initMainWindow()
 	// Create the status bar
 	pStatus = statusBar();
 	pStatus->insertItem(i18n(" Line: N/A Col: N/A "), 0, 0, true);
+	pStatus->insertItem(i18n(" Make Result: N/A "), 1, 0, true);
 
 	// Create the main dock for the editor tabs widget
 	pMainDock = createDockWidget("Editors Window", QPixmap());
@@ -1173,6 +1174,10 @@ void KScope::slotProjectMake()
 		connect(m_pMakeDlg, SIGNAL(fileRequested(const QString&, uint)), this,
 			SLOT(slotShowEditor(const QString&, uint)));
 		
+		// Display the result of make dialogue
+		connect(m_pMakeDlg, SIGNAL(makeResult(const QString&)), this, 
+			SLOT(slotMakeShowResult(const QString&)));
+		
 		// Show the dialogue
 		m_pMakeDlg->show();
 	}
@@ -1660,6 +1665,20 @@ void KScope::slotShowCursorPos(uint nLine, uint nCol)
 	m_nCurLine = nLine;
 }
 
+/**
+ * Displays the status of make process.
+ * @param	sResult	The result string
+ */
+void KScope::slotMakeShowResult(const QString& sResult)
+{
+	KStatusBar* pStatus = statusBar();
+	QString sText;
+
+	/* Show the result status of make. */
+	QTextOStream(&sText) << " Make Result: " << sResult;
+	pStatus->changeItem(sText, 1);
+}
+	
 /**
  * Stores the path of a newly opened file.
  * This slot is connected to the fileOpened() signal emitted by an

@@ -59,6 +59,7 @@ public slots:
 	
 signals:
 	void fileRequested(const QString&, uint);
+	void makeResult(const QString&);
 	
 protected:
 	virtual void closeEvent(QCloseEvent*);

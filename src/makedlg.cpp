@@ -185,6 +185,9 @@ void MakeDlg::slotMake()
 	// Disbale the make button
 	m_pMakeButton->setEnabled(false);
 	m_pStopButton->setEnabled(true);
+
+	// Display status in main window
+	emit makeResult("making...");
 }
 
 /**
@@ -221,9 +224,15 @@ void MakeDlg::slotFinished(uint)
 	if (m_pMake->exitStatus() == 0) {
 		m_pOutputBrowser->append("<font color=\"#008000\"><b>Success</b>"
 			"</font>");
+
+		// Display status in main window
+		emit makeResult("Success.");
 	}
 	else {
 		m_pOutputBrowser->append("<font color=\"#ff0000\"><b>Error</b></font>");
+
+		// Display status in main window
+		emit makeResult("Error.");
 	}
 	
 	// Show make time
