@@ -565,6 +565,7 @@ void EditorTabs::slotGoRight()
  */
 void EditorTabs::slotFillWindowMenu()
 {
+	EditorPage* pPage;
 	QString sLabel;
 	int i;
 	
@@ -576,7 +577,13 @@ void EditorTabs::slotFillWindowMenu()
 	
 	// Add new items
 	for (i = 0; i < count(); i++) {
-		sLabel = (i < 10) ? QString("&%1 %2").arg(i).arg(label(i)) : label(i);
+		sLabel = (i < 10) ? QString("&%1 %2").arg(i).arg(label(i)) : label(i).prepend("   ");
+		pPage = (EditorPage*)page(i);
+		if (pPage->isModified())
+			sLabel.prepend("* ");
+		else
+			sLabel.prepend("   ");
+
 		m_pWindowMenu->insertItem(sLabel, i);
 	}
 	

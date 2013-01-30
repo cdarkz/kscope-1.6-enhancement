@@ -29,6 +29,7 @@
 #include <klocale.h>
 #include "tabwidget.h"
 #include "kscopepixmaps.h"
+#include "editorpage.h"
 
 /**
  * Class constructor.
@@ -68,14 +69,21 @@ TabWidget::~TabWidget()
  */
 void TabWidget::slotShowTabList()
 {
+	EditorPage* pPage;
 	int i;
 	
 	// Delete the previous menu
 	m_pMenu->clear();
 
 	// Create and populate the menu	
-	for (i = 0; i < count(); i++)
-		m_pMenu->insertItem(label(i), i);
+	for (i = 0; i < count(); i++) {
+		pPage = (EditorPage*)page(i);
+		if (pPage->isModified())
+			m_pMenu->insertItem(label(i).prepend("* "), i);
+		else
+			m_pMenu->insertItem(label(i).prepend("   "), i);
+
+	}
 		
 	// Show the menu
 	m_pMenu->popup(mapToGlobal(m_pButton->pos()));
